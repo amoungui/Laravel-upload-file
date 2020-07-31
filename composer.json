@@ -1,0 +1,27 @@
+{
+    "name": "amoungui/file-uploader",
+    "description": "A small file upload laravel package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amoungui Serge",
+            "email": "samoungui@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scaffolder\\FileUploader\\": "src/"
+        }
+    },    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Scaffolder\\FileUploader\\FileUploaderServiceProvider"
+            ]
+        }
+    }    
+}
